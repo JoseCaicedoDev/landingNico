@@ -1,0 +1,45 @@
+/* Slider de las cards */
+.card{
+  text-align: center;
+  margin-block-end: 50px;
+}
+.card__title{
+  color: var(--color-secondary);
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+.card__content{
+  text-align: center;
+  padding-inline: 25px;
+}
+.card__content-title{
+  color: var(--color-secondary);
+}
+
+.slider{
+  margin-block: 35px;
+}
+.slider__container{
+  display: block;
+  overflow: auto;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+.slider__slide{
+  display: inline-block;
+  white-space: normal;
+}
+
+.slider__bullet{
+  display: inline-block;
+  inline-size: 10px;
+  block-size: 10px;
+  background: var(--color-white);
+  border-radius: 50%;
+  box-shadow: 0.5px 0.5px rgb(0 0 0 / 25%);
+}
+.slider__bullet:hover{
+  background: var(--color-primary);
+  cursor: pointer;
+}
