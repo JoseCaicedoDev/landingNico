@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;600;700&display=swap');
 @import url(./nav.css);
-@import url(./slider.css);
 @import url(./product.css);
-@import url(./manage.css);
+@import url(./about.css);
+@import url(./careers.css);
+@import url(./community.css);
+@import url(./footer.css);
+
+
 :root{
   --color-primary: rgb(242, 95, 58);
   --color-secondary: rgb(35, 44, 81);
@@ -66,74 +70,7 @@ li{
   outline: none;
   font-size: 13.18px;
 }
-/* team */
-.team{
-  background: var(--color-primary);
-  color: var(--color-white);
-  text-align: center;
-  line-height: 40px;
-  padding-block: 50px;
-}
-.team p{
-  font-size: 34px;
-  font-weight: 700;
-  text-align: center;
-  padding-inline: 32px;
-}
-.team a{
-  background: var(--color-white);
-  color: var(--color-primary);
-}
-/* footer */
 
-footer{
-  background: #1E1E26;
-  text-align: center;
-}
-.form__subscribed{
-  padding-block: 35px;
-  text-align: center;
-}
-.form__subscribed .input{
-  inline-size: 55%;
-}
-.form__subscribed .btn{
-  margin-inline-start: 5px;
-}
-
-/* menu footer */
-.navbar__footer-content{
-  padding: 0;
-  inline-size: 25vw;
-  margin: auto;
-  column-count: 2;
-}
-.navbar__footer-content a{
-  color: var(--color-white);
-  font-size: 13px;
-}
-/* social__networks */
-.social__networks{
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  padding-inline: 15px;
-  margin-block: 30px;
-}
-.social__networks .fab{
-  font-size: 30px;
-  color: var(--color-white);
-}
-.footer__image{
-  margin-block-start: 10px;
-  margin-block-end: 10px;
-}
-.footer__copyright{
-  margin: 0;
-  padding-block: 20px;
-  color: var(--gray20);
-  font-size: 13px;
-}
 
 
 @media (min-width: 640px) {

@@ -1,0 +1,33 @@
+@import url(./slider.css);
+
+/* Slider de las cards */
+.card{
+  text-align: center;
+  margin-block-end: 50px;
+}
+.card__title{
+  color: var(--color-secondary);
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+}
+.card__content{
+  height: 22rem;
+  text-align: center;
+  margin-inline: 2rem;
+  padding-inline: 2rem;
+  padding-block: 3rem;
+  background:#FAFAFA;
+  outline: 1px solid red;
+}
+
+.card__content-title{
+  color: var(--color-secondary);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.card__content-description{
+  color: var(--gray20);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
