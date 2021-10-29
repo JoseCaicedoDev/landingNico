@@ -1,5 +1,5 @@
 .slider{
-  margin-block: 35px;
+  margin-block: 3.5rem;
 }
 .slider__container{
   display: block;
@@ -11,11 +11,13 @@
   display: inline-block;
   white-space: normal;
 }
-
+.slider__bullet-list{
+ margin-block-start: 2rem;
+}
 .slider__bullet{
   display: inline-block;
-  inline-size: 8px;
-  block-size: 8px;
+  inline-size: .8rem;
+  block-size: .8rem;
   border-radius: 50%;
   border: 1px solid var(--color-primary);
 }

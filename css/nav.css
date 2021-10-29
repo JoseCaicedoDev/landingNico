@@ -6,6 +6,8 @@
   position: fixed;
   background: var(--color-white);
   inline-size: 100%;
+  z-index: 2;
+  outline: 1px solid green;
 }
 .header > .btn, #check{
   display: none;
@@ -23,9 +25,11 @@
 .nav__logo{
   margin-inline-start: 3rem;
   line-height: 6rem;
+  outline: 1px solid red;
 }
-.nav__logo img{
-  max-inline-size: 20vh;
+.logo-image{
+  inline-size: 14.5rem;
+  block-size: 2.4rem;
 }
 .nav__list{
   position: fixed;

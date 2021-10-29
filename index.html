@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <script src="https://kit.fontawesome.com/1530ae4db0.js" crossorigin="anonymous"></script>
   <title>Nico</title>
 </head>
 
 <body>
   <div class="body__content">
-
     <!-- Navegacion del sitio -->
     <header class="header">
       <nav class="header__nav">
@@ -21,29 +21,33 @@
           <i class="fas fa-bars"></i>
         </label>
         <a href="/" class="nav__logo">
-          <img src="images/logoManage_black.png" alt="logo de Nico digital" title="logo de Nico digital">
+          <img class="logo-image" src="images/logoManage_black.png" alt="logo de Nico digital"
+            title="logo de Nico digital">
         </a>
         <ul class="nav__list">
           <li><a class="link" href="/">Pricing</a></li>
-          <li><a class="link" href="/">Product</a></li>
-          <li><a class="link" href="/">About Us</a></li>
-          <li><a class="link" href="/">Careers</a></li>
-          <li><a class="link" href="/">Community</a></li>
+          <li><a class="link" href="#product">Product</a></li>
+          <li><a class="link" href="#manage">About Us</a></li>
+          <li><a class="link" href="#careers">Careers</a></li>
+          <li><a class="link" href="#community">Community</a></li>
         </ul>
       </nav>
       <a class="btn link" href="">Get Started</a>
     </header>
+
     <main>
       <div class="main__content">
 
-        <!-- Seccion del Producto -->
-        <section class="product">
+        <!-- Seccion de Product -->
+        <section class="product" id="product">
           <figure class="product__figure">
-            <img class="product__image" src="images/stats2.png" alt="">
-            <img class="product__image" src="images/stats1.png" alt="">
-            <img class="product__image" src="images/stats3.png" alt="">
+            <img class="product__figure-image" src="images/stats2.png" alt="grafico de barras"
+              title="grafico de barras">
+            <img class="product__figure-image" src="images/stats1.png" alt="grafico de torta" title="grafico de torta">
+            <img class="product__figure-image" src="images/stats3.png" alt="Porcentaje de estadisticas"
+              title="Porcentaje de estadisticas">
           </figure>
-          <div class="product__item">
+          <div class="product__content">
             <h1>Bring everyone together to build better products.</h1>
             <p>Manage makes it simple for software teams
               to plan day-to-day tasks while keeping the
@@ -52,8 +56,8 @@
           </div>
         </section>
 
-        <!-- Seccion de administrar -->
-        <section class="manage">
+        <!-- Seccion de about -->
+        <section class="manage" id="manage">
           <div class="manage__content">
             <h3>What´s different about
               Manage?</h3>
@@ -63,14 +67,16 @@
           <div class="manage__list">
             <article class="manage__item">
               <h4><span>01</span> Track company-wide progress</h4>
-              <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level
+              <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone
+                level
                 all
                 the way
                 done to the smallest of details. Never lose sight of the bigger picture again.</p>
             </article>
             <article class="manage__item">
               <h4><span>02</span> Advance built-in reports</h4>
-              <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps
+              <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard
+                helps
                 you
                 build out
                 the reports you need to keep key stakeholders informed.</p>
@@ -86,7 +92,7 @@
         </section>
 
         <!-- Seccion de careers -->
-        <section class="card">
+        <section class="card" id="careers">
           <h2 class="card__title">What they´ve said</h2>
           <!-- Personaje 1 -->
           <div class="slider">
@@ -105,7 +111,8 @@
               </scroll-page>
               <scroll-page class="slider__slide" id="person-2">
                 <div class="card__content">
-                  <img card__content-image src="images/avatar-ali.png" alt="avatar anisha" title="avatar anisha">
+                  <img class="card__content-image" src="images/avatar-ali.png" alt="avatar anisha"
+                    title="avatar anisha">
                   <h4 class="card__content-title">Ali Bravo</h4>
                   <p class="card__content-description">“We have been able to cancel so many other subscriptions since
                     using manage.
@@ -116,7 +123,8 @@
               </scroll-page>
               <scroll-page class="slider__slide" id="person-3">
                 <div class="card__content">
-                  <img card__content-image src="images/avatar-richard.png" alt="avatar anisha" title="avatar anisha">
+                  <img class="card__content-image" src="images/avatar-richard.png" alt="avatar anisha"
+                    title="avatar anisha">
                   <h4 class="card__content-title">Ali Bravo</h4>
                   <p class="card__content-description">“Manage allows us to provide structure and process. It keeps us
                     organized and
@@ -135,15 +143,14 @@
           <a class="btn link" href="">Get Started</a>
         </section>
 
-        <!-- Team -->
-        <section class="team">
+        <!-- Seccion de Team -->
+        <section class="team" id="community">
           <div class="team__container">
             <p>Simplify how your team words today.</p>
             <a class="btn link" href="">Get Started</a>
           </div>
         </section>
       </div>
-
     </main>
 
     <footer>
@@ -179,4 +186,5 @@
     </footer>
   </div>
 </body>
+
 </html>
