@@ -25,3 +25,6 @@
   background: var(--color-primary);
   cursor: pointer;
 }
+.slider__bullet.active{
+  background: var(--color-primary);
+}
