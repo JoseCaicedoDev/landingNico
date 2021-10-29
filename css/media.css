@@ -41,8 +41,12 @@
     max-inline-size: 38.2rem;
     padding: 0;
   }
+  .nav__list a:hover{
+    color: var(--color-primary);
+  }
   .header__nav > .btn{
     display: initial;
+    margin-inline-end: 2rem;
   }
 
 /* Seccion de .product */
@@ -121,13 +125,13 @@
     justify-content: space-between;
     align-items: start;
     max-inline-size: 111rem;
-    block-size: 14.1rem;
     padding-block-start: 5rem;
     margin-inline: auto;
   }
   .footer__image{
     max-inline-size: 14.5rem;
     margin-inline: auto;
+    margin-block-end: 5rem;
   }
   .navbar__footer-content{
     line-height: 2.5rem;
